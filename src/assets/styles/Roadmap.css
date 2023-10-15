@@ -1,0 +1,50 @@
+span {
+    margin-top: 4px;
+}
+
+.writeStyle {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 55%;
+    z-index: 0;
+}
+
+.writeStyleText {
+    font-size:9rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    
+
+background: linear-gradient(270deg, rgba(32, 52, 117, 0.10) -30.2%, rgba(32, 52, 117, 0.02) 153.22%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+
+@keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .typing-animation {
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .animate-fade-in {
+    animation: typing 2s ease-in-out;
+  }
+
+  .textwidth{
+    width: 200px;
+    font-size: small;
+  }
+  

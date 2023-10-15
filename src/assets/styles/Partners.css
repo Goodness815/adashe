@@ -1,0 +1,16 @@
+.main {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.addpadding{
+    padding: 20px 10px;
+}
+
+.kaydmore{
+    color: #fff;
+    text-align: center;
+    text-decoration: solid #fff underline;
+    margin-top: 50px;
+}
+
