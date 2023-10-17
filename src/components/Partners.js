@@ -101,7 +101,7 @@ const Partners = () => {
           </div>
         </div>
         <div className="kaydmore">
-        <a className="text-gray-200 text-center">
+        <a href="" className="text-gray-200 text-center">
           More Partners
         </a></div>
 
