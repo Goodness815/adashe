@@ -1,10 +1,10 @@
 import React from "react";
-import Othniel from "../assets/images/teams/Gerald.png";
 import Papadopoulos from "../assets/images/teams/Papadopoulos.png";
 import Quivira from "../assets/images/teams/Quivira.png";
 import Uzochukwu from "../assets/images/teams/Uzochukwu.png";
 import socialIcon from "../assets/icons/linkedin.svg";
 import logo3 from "../assets/logo/fas.svg";
+import Gerald from "../assets/images/teams/Gerald.png"
 import "../assets/styles/Customkayd.css";
 
 const Team = () => {
@@ -101,7 +101,7 @@ const Team = () => {
           <div className="bg-gray-200 rounded-lg p-4 flex flex-col md:flex-row items-center team-container">
             <div className="mb-4 md:mr-4 md:mb-0 md:flex-shrink-0">
               <img
-                src={Othniel}
+                src={Gerald}
                 alt="Team Member 4"
                 className="w-25 h-25 mt-6 rounded-full kaydimg"
               />
