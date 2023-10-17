@@ -4,7 +4,7 @@ import Quivira from "../assets/images/teams/Quivira.png";
 import Uzochukwu from "../assets/images/teams/Uzochukwu.png";
 import socialIcon from "../assets/icons/linkedin.svg";
 import logo3 from "../assets/logo/fas.svg";
-import Gerald from "../assets/images/teams/Gerald.png"
+import Gerald from "../assets/images/teams/gerald.png"
 import "../assets/styles/Customkayd.css";
 
 const Team = () => {
