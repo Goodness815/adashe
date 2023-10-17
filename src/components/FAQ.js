@@ -9,7 +9,7 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className={`rounded-md faqContainer ${isDarkMode ? 'faqOpen' : 'faqClosed'} ${isOpen ? 'faqOpen' : 'faqClosed'}`}>
+    <div className={`rounded-md faqContainer ${isOpen ? 'faqOpen' : 'faqClosed'}`}>
       <button
         className="flex justify-between items-center w-full py-3 focus:outline-none"
         onClick={toggleAccordion}
@@ -31,6 +31,7 @@ const FAQItem = ({ question, answer }) => {
     </div>
   );
 };
+
 
 
 const FAQ = () => {

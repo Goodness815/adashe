@@ -131,3 +131,7 @@ body {
 .dark-mode .copyrightText {
   color: rgb(201, 196, 196);
 }
+
+.dark-mode .faqOpen{
+  background: #E6E2EC;
+}
