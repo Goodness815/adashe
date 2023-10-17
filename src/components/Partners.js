@@ -4,7 +4,7 @@ import "../assets/styles/Partners.css";
 
 const Partners = () => {
   return (
-    <div className="bg-[#3A2075] custom-gradient mt-10 addpadding">
+    <div className="bg-[#3A2075] custom-gradient mt-10 addpadding" id="Partners">
       <div className="container mx-auto">
         <h2 className="text-xl text-gray-100 mb-16 mt-8 text-center newHead">
           Core Partners
@@ -101,7 +101,7 @@ const Partners = () => {
           </div>
         </div>
         <div className="kaydmore">
-        <a href="" className="text-gray-200 text-center">
+        <a href="#Partners" className="text-gray-200 text-center">
           More Partners
         </a></div>
 

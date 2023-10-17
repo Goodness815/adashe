@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/icons/linkedin.svg";
 import logo2 from "../assets/logo/bi_linkedin.svg";
 import profile from "../assets/icons/Ellipse.png";
 
