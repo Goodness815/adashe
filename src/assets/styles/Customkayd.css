@@ -54,7 +54,7 @@ color: #000;
 .kaydmap {
     max-width: 100%;
     height:auto; /* Set the height to fill the entire viewport */
-    background: url('../logo/world.png') no-repeat center center;
+    background: url('../logo/realworld.svg') no-repeat center center;
     fill: rgba(58, 32, 117, 0.03);
       }
   
@@ -62,7 +62,7 @@ color: #000;
   .wavesvg {
     max-width: 100%;
     height: auto; /* Set the height to fill the entire viewport */
-    background: url('../logo/wave.png') no-repeat center center;
+    background: url('../logo/lines.svg') no-repeat center center;
   }
   
 
