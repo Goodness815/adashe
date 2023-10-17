@@ -1,5 +1,5 @@
 import React from "react";
-import Othniel from "../assets/images/teams/Othniel.png";
+import Othniel from "../assets/images/teams/gerald.png";
 import Papadopoulos from "../assets/images/teams/Papadopoulos.png";
 import Quivira from "../assets/images/teams/quivira.png";
 import Uzochukwu from "../assets/images/teams/Uzochukwu.png";
@@ -108,7 +108,7 @@ const Team = () => {
             </div>
             <div className="flex-grow">
               <p className="text-lg text-[#3A2075] font-semibold">
-                Uzochukwu Mbamalu
+                Gerald Monroe
               </p>
               <p className="text-gray-600">CFO</p>
               <p className="text-black team-text">
