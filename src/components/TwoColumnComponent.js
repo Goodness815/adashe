@@ -22,9 +22,10 @@ const TwoColumnComponent = () => {
             Whitepaper
           </button>
         </div>
-        <div className="mt-2">
+      {
+      /*  <div className="mt-2">
             <span className="text-[#203475] percentOff">-- 37% OFF --</span>
-        </div>
+        </div>*/}
       </div>
 
       {/* Right Column */}
