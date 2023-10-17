@@ -1,5 +1,4 @@
 import React from "react";
-import tree from "../assets/logo/treee.png";
 
 const AboutAdashe = () => {
   return (
@@ -62,11 +61,6 @@ const AboutAdashe = () => {
         
 
         <div className="w-full md:w-1/2 p-4 rounded-lg  custom-gradient allocationTable Kaydborder">
-        <div className="kayddiv"><img
-      src={tree}
-      alt="linkedin"
-      className="tree"
-    /></div>
         <table className="w-full">
   <tr>
     <td className="w-full md:w-1/2 pr-4">
