@@ -1,7 +1,7 @@
 import React from "react";
 import Othniel from "../assets/images/teams/Othniel.png";
 import Papadopoulos from "../assets/images/teams/Papadopoulos.png";
-import Quivira from "../assets/images/teams/Quivira.png";
+import Quivira from "../assets/images/teams/quivira.png";
 import Uzochukwu from "../assets/images/teams/Uzochukwu.png";
 import socialIcon from "../assets/icons/linkedin.svg";
 import logo3 from "../assets/logo/fas.svg";
@@ -34,7 +34,8 @@ const Team = () => {
                 in multiple spaces including Blockchain and Crypto
               </p>
               <div className="mt-4 flex items-center">
-                <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                <a href="https://www.linkedin.com/in/othnielcrtr/">
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /></a>
               </div>
             </div>
           </div>
@@ -61,7 +62,8 @@ const Team = () => {
                 systems.
               </p>
               <div className="mt-4 flex items-center">
-                <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                <a href="https://www.linkedin.com/in/ppapadopoulos/">
+                <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /></a>
               </div>
             </div>
           </div>
@@ -87,7 +89,8 @@ const Team = () => {
                 beyond marketing into programming and business management.
               </p>
               <div className="mt-4 flex items-center">
-                <img src={logo3} alt="Icon 1" className="w-6 h-6 mr-2" />
+               <a href="https://www.linkedin.com/in/damilarequivira/">
+                <img src={logo3} alt="Icon 1" className="w-6 h-6 mr-2" /></a> 
               </div>
             </div>
           </div>
@@ -114,7 +117,8 @@ const Team = () => {
                 of tech and finance.
               </p>
               <div className="mt-4 flex items-center">
-                <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                <a href="https://www.linkedin.com/in/geraldmonroe1/">
+                 <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /> </a>
               </div>
             </div>
           </div>

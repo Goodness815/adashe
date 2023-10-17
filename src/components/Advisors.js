@@ -1,28 +1,31 @@
 import React from "react";
 import logo2 from "../assets/logo/bi_linkedin.svg";
-import profile from "../assets/icons/Ellipse.png";
+import carl from "../assets/logo/carl.jpeg";
+import nick from "../assets/logo/nick.jpeg";
+import jon from "../assets/logo/jon.png";
+import mbamalu from "../assets/logo/mba.jpeg";
 
 const AdvisorsComponent = () => {
   const advisors = [
     {
-      name: "Jon Gillon",
-      imageSrc: profile,
-      linkedinLink: "https://www.linkedin.com/",
+      name: "Carl Tautenhahn",
+      imageSrc: carl,
+      linkedinLink: "https://www.linkedin.com/in/carlhenly/",
     },
     {
-      name: "Kevin Muldoon",
-      imageSrc: profile,
-      linkedinLink: "https://www.linkedin.com/",
+      name: "Jon Gillon",
+      imageSrc: jon,
+      linkedinLink: "https://www.linkedin.com/in/jongillon/",
     },
     {
       name: "Nick Raffin",
-      imageSrc: profile,
-      linkedinLink: "https://www.linkedin.com/",
+      imageSrc: nick,
+      linkedinLink: "https://www.linkedin.com/in/nicholas-raffin-750878163/",
     },
     {
-      name: "Lee Hancock",
-      imageSrc: profile,
-      linkedinLink: "https://www.linkedin.com/",
+      name: "Uzochukwu Mbamalu",
+      imageSrc: mbamalu,
+      linkedinLink: "https://www.linkedin.com/in/uzochukwu-mbamalu-37111b192/",
     },
   ];
 
