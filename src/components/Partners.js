@@ -1,6 +1,10 @@
 import React from "react";
 import icon from "../assets/icons/Rectangle10.png";
 import "../assets/styles/Partners.css";
+import auby from "../assets/logo/auby.jpg";
+import palremit from "../assets/logo/palremit.jpg";
+import raze from "../assets/logo/raze.jpg";
+import travel from "../assets/logo//travel.jpg";
 
 const Partners = () => {
   return (
@@ -11,17 +15,18 @@ const Partners = () => {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2 py-2 px-2">
           {/* Partner 1 */}
-          <div className="p-4 flex items-center md:p-2 main addpadding">
-            <img
-              src={icon} /* Replace with the URL of your image */
+          
+            <div className="p-4 flex items-center md:p-2 main addpadding">
+            <a href="https://tvaofficial.com/"><img
+              src={travel} /* Replace with the URL of your image */
               alt="Partner 1"
               className="w-10 h-10 md:w-16 md:h-16 mr-2"
-            />
+            /></a>
             <div>
-              <p className="text-white mb-1 text-lg">Travel Avatar</p>
+            <a href="https://tvaofficial.com/"> <p className="text-white mb-1 text-lg">Travel Avatar</p>
               <span className="text-[#FFFFFF] md:text-ssm text-xs">
                 Comprehensive Travel Solution
-              </span>
+              </span></a>
             </div>
           </div>
 
@@ -42,16 +47,16 @@ const Partners = () => {
 
           {/* Partner 3 */}
           <div className="p-4 flex items-center md:p-2 main addpadding">
-            <img
-              src={icon} /* Replace with the URL of your image */
+          <a href="http://www.palremit.com"> <img
+              src={palremit} /* Replace with the URL of your image */
               alt="Partner 3"
               className="w-10 h-10 md:w-16 md:h-16 mr-2"
-            />
+            /></a>
             <div>
-              <p className="text-white mb-1 text-lg">Palremit</p>
+            <a href="http://www.palremit.com"> <p className="text-white mb-1 text-lg">Palremit</p>
               <span className="text-[#FFFFFF] md:text-ssm text-xs">
                 Borderless, cheap remittances
-              </span>
+              </span></a>
             </div>
           </div>
 
@@ -72,31 +77,31 @@ const Partners = () => {
 
           {/* Partner 5 */}
           <div className="p-4 flex items-center md:p-2 main addpadding">
-            <img
-              src={icon} /* Replace with the URL of your image */
+          <a href="https://play.google.com/store/apps/details?id=com.heyauby.heyauby"> <img
+              src={auby} /* Replace with the URL of your image */
               alt="Partner 5"
               className="w-10 h-10 md:w-16 md:h-16 mr-2"
-            />
+            /></a>
             <div>
-              <p className="text-white mb-1 text-lg">Auby</p>
+            <a href="https://play.google.com/store/apps/details?id=com.heyauby.heyauby"> <p className="text-white mb-1 text-lg">Auby</p>
               <span className="text-[#FFFFFF] md:text-ssm text-xs">
                 Curated edutainment
-              </span>
+              </span></a>
             </div>
           </div>
 
           {/* Partner 6 */}
           <div className="p-4 flex items-center md:p-2 main addpadding">
-            <img
-              src={icon} /* Replace with the URL of your image */
+          <a href="http://www.raze.finance"> <img
+              src={raze} /* Replace with the URL of your image */
               alt="Partner 6"
               className="w-10 h-10 md:w-16 md:h-16 mr-2"
-            />
+            /></a>
             <div>
-              <p className="text-white mb-1 text-lg">Raze. Finance</p>
+            <a href="http://www.raze.finance"><p className="text-white mb-1 text-lg">Raze. Finance</p>
               <span className="text-[#FFFFFF] md:text-ssm text-xs">
                 A Fund raising platform
-              </span>
+              </span></a>
             </div>
           </div>
         </div>

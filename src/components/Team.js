@@ -112,9 +112,10 @@ const Team = () => {
               </p>
               <p className="text-gray-600">CFO</p>
               <p className="text-black team-text">
-                Founder of Palremit, Ted Talk alumni, and a fast-growing
-                personality in the fintech space with an in-depth understanding
-                of tech and finance.
+                Gerald has over 10 years of experience as a senior blockchain developer 
+                and has served as a C-Level Member and advisor to several industry-leading 
+                blockchain projects. He started mining crypto in 2012 and has remained a 
+                vocal crypto advocate.
               </p>
               <div className="mt-4 flex items-center">
                 <a href="https://www.linkedin.com/in/geraldmonroe1/">
