@@ -1,9 +1,10 @@
 import React from "react";
-import logo2 from "../assets/logo/bi_linkedin.svg";
+import logo2 from "../assets/icons/linkedin.svg";
 import carl from "../assets/logo/carl.jpeg";
 import nick from "../assets/logo/nick.jpeg";
 import jon from "../assets/logo/jon.png";
 import mbamalu from "../assets/logo/mba.jpeg";
+
 
 const AdvisorsComponent = () => {
   const advisors = [
