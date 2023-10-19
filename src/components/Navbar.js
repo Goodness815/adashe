@@ -89,12 +89,12 @@ const Navbar = () => {
           >
             ROADMAP
           </a>
-          <a
+         {/* <a
             href="https://adashe.gitbook.io/adashe-gitbook/"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
           >
             WHITEPAPER
-          </a>
+  </a> */}
           <a
             href="#TEAM"
             className="text-[#203475] hover:text-gray-300 transition duration-300"
