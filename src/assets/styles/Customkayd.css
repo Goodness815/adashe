@@ -1,0 +1,262 @@
+.Kaydborder{
+border-radius: 7px;
+}
+
+.Kaydborders{
+    border-radius: 2px;
+    padding: 5px 0px;
+    }
+
+.kayd-gradient {
+    background: linear-gradient(15deg, #682075, #3A2075, #3A2075);
+  }
+
+.kayd-footer{
+    background: #E6E2EC;
+}
+
+.kaydinput{
+    border-radius: 5px;
+    background: rgba(58, 32, 117, 0.05);
+    color: black;
+    padding: 15px 12px;
+}
+
+.kaydinput::placeholder {
+    color: #000; /* Change this color to your desired placeholder color */
+}
+
+.kaydfont{
+font-size: 28px;
+}
+
+.kaydimg{
+    border-radius: 12px;
+}
+
+.kaydfaqfont{
+font-size: medium;
+text-align: left;
+}
+
+.kaydfaqfont2{
+margin-top:-20px;
+color: #000;
+}
+
+.kaydbold{
+    color: #000;
+    font-weight: 600;
+}
+
+
+/* Define the CSS class for your .kaydmap */
+.kaydmap {
+    max-width: 100%;
+    height:auto; /* Set the height to fill the entire viewport */
+    background: url('../logo/realworld.svg') no-repeat center center;
+    fill: rgba(58, 32, 117, 0.03);
+      }
+  
+  /* Define the CSS class for your .wavesvg */
+  .wavesvg {
+    max-width: 100%;
+    height: auto; /* Set the height to fill the entire viewport */
+    background: url('../logo/lines.svg') no-repeat center center;
+  }
+  
+
+/* Define the CSS class for your <div> */
+.groupsvg{
+    width: 100%; /* Set the width of your <div> */
+    height: 100%; /* Set the height of your <div> */
+    background: url('../logo/Group.svg') no-repeat center center; /* Specify the SVG image as the background */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent repetition */
+     
+}
+
+
+.Token{
+color: rgba(255, 255, 255, 0.04);
+font-size: 48.556px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+
+
+/* Define the font size for phone views (e.g., screens with a max width of 768px) */
+@media (max-width: 900px) {
+    .kaydtextsm{
+        font-size: 9px;
+        padding: 2px;
+    }
+  }
+
+
+  .justify-content-center{
+    justify-content: center;
+  }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+    padding: 7px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+    transform: translateX(0);
+}
+
+
+/* Added styles for the icon */
+.switch i {
+    position: absolute;
+    top: 47%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+/* Additional styles for the Sun and Moon icons (adjust as needed) */
+.slider svg{
+    color: rgba(58, 32, 117, 1);/* Adjust the color of the Sun icon */
+    width: 18px; /* Set the desired width */
+    height: 18px; /* Set the desired height */
+}
+
+
+.kaydswitch:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.kaydswitch:checked + .slider {
+    background-color: rgba(58, 32, 117, 1);
+}
+
+.kaydswitch:focus + .slider {
+    box-shadow: 0 0 1px rgba(58, 32, 117, 1);
+}
+
+.kaydswitch:checked + .slider svg{
+   color: #fff;
+}
+
+
+.myimg{
+    width: 100%;
+    height: auto;
+}
+
+
+.kayddiv{
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.kayddiv2{
+    justify-content: left;
+    }
+
+.vertical-align-top {
+    vertical-align: top;
+  }
+
+  .kaydfaqbtn{
+    border-radius: 4.348px;
+border-top: 0.87px solid rgba(58, 32, 117, 0.50);
+border-right: 0.87px solid rgba(58, 32, 117, 0.50);
+border-bottom: 1.739px solid rgba(58, 32, 117, 0.50);
+border-left: 0.87px solid rgba(58, 32, 117, 0.50);
+background: #3A2075;
+  }
+
+  .linkcss{
+    margin-left: -4px;
+    margin-top: 5px;
+  }
+
+  .kaydcolor{
+    color: #3A2075;
+font-family: Helvetica Neue;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  /* Define the font size for phone views (e.g., screens with a max width of 768px) */
+@media (max-width: 900px) {
+    .kaydcolor{
+        color: #3A2075;
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    font-weight: 600;
+    }
+
+    .kayddiv2{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 15px;
+        }
+    
+  }
+
+
+
+
+
+  .tree {
+    position: absolute;
+    padding-top: 8%;
+    height: 420px;
+    width: 300px;
+}
+
+.faqOpen{
+    background: #E6E2EC;
+  }
+
+  .faqClosed{
+    background: #DDDFE5;
+      }
+
+      .kaydOpen{
+        background-color: #E6E2EC;
+      }
