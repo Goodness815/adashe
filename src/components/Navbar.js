@@ -181,20 +181,12 @@ const Navbar = () => {
           >
             ROADMAP
           </a>
-<<<<<<< HEAD
           {/* <a
-=======
-          <a
->>>>>>> cd9187e395cf63d14257b087e2b499c3ae241c47
             href="https://adashe.gitbook.io/adashe-gitbook/"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
           >
             WHITEPAPER
-<<<<<<< HEAD
       </a> */}
-=======
-          </a>
->>>>>>> cd9187e395cf63d14257b087e2b499c3ae241c47
           <a
             href="#TEAM"
             className="block text-[#203475] p-2 px-4 hover:text-gray-300 transition duration-300"
@@ -218,8 +210,4 @@ const Navbar = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Navbar;
-=======
-export default Navbar;
->>>>>>> cd9187e395cf63d14257b087e2b499c3ae241c47
