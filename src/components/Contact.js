@@ -51,7 +51,7 @@ const ContactUs = () => {
           />
         </div>
 
-        <div class="mb-4">
+        <div className="mb-4">
         
           <textarea
             id="message"
@@ -59,7 +59,7 @@ const ContactUs = () => {
             value={formData.message}
             onChange={handleInputChange}
             rows="4"
-            class="w-full px-4 py-2 kaydinput rounded-lg placeholder:text-dark-200"
+            className="w-full px-4 py-2 kaydinput rounded-lg placeholder:text-dark-200"
             placeholder="Message"
             required
           ></textarea>
@@ -67,7 +67,7 @@ const ContactUs = () => {
 
         <button
           type="submit"
-          class="bg-[#3A207500] border-2 border-[#3A2075] text-[#3A2075] font-medium py-2 px-4 rounded-lg transition duration-300 ease-in-out"
+          className="bg-[#3A207500] border-2 border-[#3A2075] text-[#3A2075] font-medium py-2 px-4 rounded-lg transition duration-300 ease-in-out"
         >
           Send Message
         </button>

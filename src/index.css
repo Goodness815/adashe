@@ -1,22 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
-@import url('https://fonts.cdnfonts.com/css/montserrat');
-
-
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
 
 .custom-font {
-  font-family: 'Montserrat', sans-serif;                                             
+  font-family: "Montserrat", sans-serif;
 }
 
 /* CSS */
 /* Light mode styles */
 body {
   background-color: #ffffff;
-  color:gray;
-  font-family: 'Montserrat', sans-serif;  
-  font-stretch: expanded;   
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-stretch: expanded;
 }
 .projectAdashe {
   display: flex;
@@ -30,14 +28,13 @@ body {
   }
 }
 
-
 .custom-gradient {
-  background: linear-gradient(15deg, #682075, #3A2075, #3A2075);
+  background: linear-gradient(15deg, #682075, #3a2075, #3a2075);
 }
 
 .button-firstTwo {
-  border: 1px solid #203475; 
-  border-bottom-width: 3px; 
+  border: 1px solid #203475;
+  border-bottom-width: 3px;
   border-radius: 8px;
   color: #203475;
   cursor: pointer;
@@ -45,9 +42,8 @@ body {
 }
 
 .documentButton {
-  background: linear-gradient(15deg, #682075, #3A2075, #3A2075);
+  background: linear-gradient(15deg, #682075, #3a2075, #3a2075);
 }
-
 
 /* Dark mode styles */
 .dark-mode body {
@@ -55,26 +51,33 @@ body {
   color: #ffffff;
 }
 
-
 .dark-mode a {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .dark-mode h2 {
-  color: #3A2075;
+  color: #875aef;
+}
+
+.dark-mode .fourColumnText {
+  color: #875aef;
 }
 
 .dark-mode .button-firstTwo {
-  border-color: #3A2075;
-  color: #3A2075;
+  border-color: #875aef;
+  color: white;
+}
+.dark-mode .button-firstOne {
+  background-color: #875aef;
+  color: white;
 }
 
 .dark-mode .team-container {
-  background-color: #2034750D;
+  background-color: #2034750d;
 }
 
 .dark-mode .team-text {
-  color: rgb(147, 145, 145);
+  color: rgb(202, 202, 202);
 }
 
 .dark-mode .advisors {
@@ -82,11 +85,11 @@ body {
 }
 
 .dark-mode .newHead {
-  color: rgb(168, 166, 166);
+  color: rgb(255, 255, 255);
 }
 
 .dark-mode .faqContainer {
-  background-color: #DDDFE5;
+  background-color: #dddfe5;
 }
 
 .dark-mode .borderColor {
@@ -94,25 +97,50 @@ body {
 }
 
 .dark-mode .allocationTable {
-  background-color: #3A2075;
+  background-color: #3a2075;
 }
 
 .dark-mode .spanAdvisor {
-  color: #3A2075;
+  color: #3a2075;
 }
 
 .dark-mode .documentButton {
   background-color: #121212;
-  border: 1px solid #3A2075;
+  border: 1px solid #3a2075;
   border-radius: 5px;
 }
+.dark-mode .writeStyleText {
+  background: linear-gradient(
+    270deg,
+    rgba(139, 140, 140, 0.1) -30.2%,
+    rgba(255, 255, 255, 0.02) 153.22%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-mode #ROADMAP span {
+  color: white !important;
+}
 
+.dark-mode .round_roadmap {
+  background-color: white !important;
+}
+.dark-mode .rounded-full {
+  border-color: white !important;
+}
+.dark-mode .rounded-full div {
+  background-color: white !important;
+}
+.dark-mode .rounded-full {
+  border-color: white !important;
+}
 .dark-mode .featureComponentContainer {
-  background-color: #3A2075;
+  background-color: #3a2075;
 }
 
 .dark-mode .percentOff {
-  color: #fff; 
+  color: #fff;
 }
 
 .dark-mode .verifiedBorder {
@@ -132,6 +160,67 @@ body {
   color: rgb(201, 196, 196);
 }
 
-.dark-mode .faqOpen{
-  background: #E6E2EC;
+.dark-mode .faqOpen {
+  background: #e6e2ec;
+}
+.dark-mode .hamburger {
+  color: white;
+}
+.dark-mode .kaydcolor {
+  color: white;
+  font-weight: 800;
+}
+
+.roadmap-container {
+  width: 91.666667%;
+}
+.dark-mode .services_text {
+  color: #875aef;
+}
+.dark-mode .vertical-align-top {
+  color: #875aef;
+}
+.dark-mode .kaydmap .font-semibold {
+  color: #875aef;
+}
+.dark-mode button.rounded-md:first-of-type {
+  border-color: #875aef;
+  color: #fff;
+}
+.parters_item_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parters_item_right p {
+  text-align: start !important;
+  width: 100%;
+}
+@media screen and (max-width: 770px) {
+  .partners_item img {
+    margin: 0px 15px;
+  }
+  .roadmap-container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .partners_item p {
+    font-size: 14px;
+  }
+  .partners_item span {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .roadmap-container {
+    width: 100%;
+  }
+  .roadmap-container .space-y-1 {
+    width: 50%;
+  }
+  .parters_item_right {
+    width: 50%;
+  }
 }

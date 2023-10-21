@@ -28,7 +28,7 @@ const Team = () => {
               <p className="text-lg text-[#3A2075] font-semibold">
                 Othniel Mbamalu
               </p>
-              <p className="text-gray-600">CEO</p>
+              <p className="text-gray-400">CEO</p>
               <p className="text-black team-text">
                 An Aerospace Inventor with multiple US patents and an innovator
                 in multiple spaces including Blockchain and Crypto
@@ -55,7 +55,7 @@ const Team = () => {
               <p className="text-lg text-[#3A2075] font-semibold">
                 Dr. Periklis Papadopoulos
               </p>
-              <p className="text-gray-600">CTO</p>
+              <p className="text-gray-400">CTO</p>
               <p className="text-black team-text">
                 Dr. Periklis Papadopoulos is a seasoned engineer and has worked
                 on projects spanning decades in Aerospace and other cutting-edge
@@ -83,7 +83,7 @@ const Team = () => {
               <p className="text-lg text-[#3A2075] font-semibold">
                 Quivira. Ophir
               </p>
-              <p className="text-gray-600">Chief Marketing Officer</p>
+              <p className="text-gray-400">Chief Marketing Officer</p>
               <p className="text-black team-text">
                 One of Africa's top crypto influencers, Quivira's skills extend
                 beyond marketing into programming and business management.
@@ -110,7 +110,7 @@ const Team = () => {
               <p className="text-lg text-[#3A2075] font-semibold">
                 Gerald Monroe
               </p>
-              <p className="text-gray-600">CFO</p>
+              <p className="text-gray-400">CFO</p>
               <p className="text-black team-text">
                 Gerald has over 10 years of experience as a senior blockchain developer 
                 and has served as a C-Level Member and advisor to several industry-leading 

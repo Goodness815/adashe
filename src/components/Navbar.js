@@ -60,9 +60,9 @@ const Navbar = () => {
           />
         </div>
         <div className="md:hidden pr-7">
-        <label class="switch">
+        <label className="switch">
     <input className="kaydswitch" onClick={toggleDarkMode} type="checkbox" id="modeToggle" />
-    <span class="slider">
+    <span className="slider">
         <i className="kicon">{isDarkMode ? <Moon /> : <Sun />}</i>
     </span>
 </label>
@@ -110,9 +110,9 @@ const Navbar = () => {
             FAQ
           </a>
           <div className="pr-3">
-          <label class="switch">
+          <label className="switch">
     <input className="kaydswitch" onClick={toggleDarkMode} type="checkbox" id="modeToggle" />
-    <span class="slider">
+    <span className="slider">
         <i className="kicon">{isDarkMode ? <Moon /> : <Sun />}</i>
     </span>
 </label>
@@ -129,7 +129,7 @@ const Navbar = () => {
           </button>
         </div>
         <div className="md:hidden pr-3">
-          <button onClick={toggleNavbar} className="text-[#203475]">
+          <button onClick={toggleNavbar} className="text-[#203475] hamburger">
             <svg
               className="w-6 h-6"
               fill="none"

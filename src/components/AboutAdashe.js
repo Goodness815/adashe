@@ -21,36 +21,36 @@ const AboutAdashe = () => {
         <table cellPadding={"10"} cellSpacing={"10"}>  
   <tbody>
     <tr>
-      <td class="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Banking</td>
-      <td class="text-lg font-light">
+      <td className="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Banking</td>
+      <td className="text-lg font-light">
         Bank your Stable Coin or ADSE and access it via our debit card,
         withdraw or deposit cash via ATM.
       </td>
     </tr>
     <tr>
-      <td class="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Staking</td>
-      <td class="text-lg font-light">
+      <td className="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Staking</td>
+      <td className="text-lg font-light">
         Stake the LP tokens from our DeFi or other AMM platforms and earn LP
         staking rewards up to 10%.
       </td>
     </tr>
     <tr>
-      <td class="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Lending</td>
-      <td class="text-lg font-light">
+      <td className="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Lending</td>
+      <td className="text-lg font-light">
         Lend your Adashe tokens to any one of our selected third party borrowers
         for different annual APY.
       </td>
     </tr>
     <tr>
-      <td class="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Farming</td>
-      <td class="text-lg font-light">
+      <td className="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Farming</td>
+      <td className="text-lg font-light">
         Farm your ADSE with pairs of other cryptocurrencies to help provide
         liquidity, earn transaction fees.
       </td>
     </tr>
     <tr>
-      <td class="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Donate</td>
-      <td class="text-lg font-light">
+      <td className="text-lg font-semibold mb-2 text-[#203475] vertical-align-top">Donate</td>
+      <td className="text-lg font-light">
         Donate anonymously to featured projects, charities, causes, and
         individuals, at no platform fees.
       </td>

@@ -20,13 +20,13 @@ const Roadmap = () => {
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
                 <div className="w-4 h-4 bg-[#3A2075] bg-opacity-50 rounded-full mx-auto mt-1.5">
-                  <span className="textwidth flex ml-8 text-[#3A2075] text-opacity-50">
+                  <span className="textwidth flex ml-8  text-[#3A2075] text-opacity-50">
                     Website and Ecosystem Design
                   </span>
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
 
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
@@ -37,7 +37,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
 
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full">
@@ -48,7 +48,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075]"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] round_roadmap"></div>
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full">
                 <div className="w-4 h-4 bg-[#3A2075] rounded-full mx-auto mt-1.5">
@@ -58,7 +58,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075]"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] round_roadmap"></div>
 
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
@@ -69,7 +69,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
 
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
@@ -80,7 +80,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
 
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
@@ -91,7 +91,7 @@ const Roadmap = () => {
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
            
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">

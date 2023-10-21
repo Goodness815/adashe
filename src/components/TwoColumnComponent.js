@@ -15,7 +15,7 @@ const TwoColumnComponent = () => {
           perpetually connecting the world of finance and data.
         </p>
         <div className="mt-8 flex space-x-4">
-          <button className="bg-[#203475] text-white px-4 py-2 rounded-md">
+          <button className="bg-[#203475] text-white px-4 py-2 rounded-md button-firstOne">
             Buy Token
           </button>
           <button className="border border-[#203475] text-[#203475] px-4 py-2 rounded-md button-firstTwo">
