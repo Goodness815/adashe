@@ -6,7 +6,7 @@ import "../assets/styles/Customkayd.css";
 const Footer = () => {
   return (
     <div className="bg-[#3A207560] kayd-footer">
-      <div className="container mx-auto mt-8 p-4 text-white py-8 mt-12">
+      <div className="container mx-auto  p-4 text-white py-8 pt-12">
         <div className="mt-8 flex flex-col sm:flex-row">
           <div className="sm:w-1/2 pr-4 mb-4">
             <ContactUs />

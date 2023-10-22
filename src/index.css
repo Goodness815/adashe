@@ -242,4 +242,7 @@ body {
   .partners_item span {
     margin-top: 0 !important;
   }
+  .more_space{
+    margin-left: 5px;
+  }
 }

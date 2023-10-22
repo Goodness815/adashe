@@ -5,6 +5,7 @@ import auby from "../assets/logo/auby.jpg";
 import palremit from "../assets/logo/palremit.jpg";
 import raze from "../assets/logo/raze.jpg";
 import travel from "../assets/logo//travel.jpg";
+import { Link } from "react-router-dom";
 
 const Partners = () => {
   return (
@@ -19,7 +20,7 @@ const Partners = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-2 py-2 px-2">
           {/* Partner 1 */}
 
-          <div className="partners_item p-4 flex items-center md:p-2 main addpadding">
+          <div className="partners_item more_space p-4 flex items-center md:p-2 main addpadding">
             <a href="https://tvaofficial.com/">
               <img
                 src={travel} /* Replace with the URL of your image */
@@ -52,7 +53,7 @@ const Partners = () => {
           </div>
 
           {/* Partner 3 */}
-          <div className="partners_item p-4 flex items-center md:p-2 main addpadding">
+          <div className="partners_item more_space p-4 flex items-center md:p-2 main addpadding">
             <a href="http://www.palremit.com">
               {" "}
               <img
@@ -126,9 +127,9 @@ const Partners = () => {
           </div>
         </div>
         <div className="kaydmore">
-          <a href="#Partners" className="text-gray-200 text-center">
+          <Link to="/more" className="text-gray-200 text-center">
             More Partners
-          </a>
+          </Link>
         </div>
 
         <div className="mt-3"></div>

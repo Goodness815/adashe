@@ -14,31 +14,54 @@ import LatestNews from "./components/LatestNews";
 import FeaturedOn from "./components/FeaturedOn";
 import Exchanges from "./components/Exchanges";
 import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+import MorePartners from "./components/MorePartners";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <TwoColumnComponent />
-      <div className="wavesvg">
-      <FourColumnComponent />
-      <FeatureComponent />
-      </div>
-      <Roadmap />
-      <Partners />
-      <FiveColumnRow />
-      <AboutAdashe />
-      <div className="kaydmap">
-      <Documents />
-      <FAQ />
-      <Team />
-      </div>
-      <AdvisorsComponent />
-      <LatestNews />
-      <FeaturedOn />
-      <Exchanges />
-      <Footer />
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div>
+            <ScrollToTop />
+            <Navbar />
+            <TwoColumnComponent />
+            <div className="wavesvg">
+              <FourColumnComponent />
+              <FeatureComponent />
+            </div>
+            <Roadmap />
+            <Partners />
+            <FiveColumnRow />
+            <AboutAdashe />
+            <div className="kaydmap">
+              <Documents />
+              <FAQ />
+              <Team />
+            </div>
+            <AdvisorsComponent />
+            <LatestNews />
+            <FeaturedOn />
+            <Exchanges />
+            <Footer />
+          </div>
+        }
+      />
+
+      <Route
+        path="/more"
+        element={
+          <>
+            <ScrollToTop />
+            {/* <Navbar /> */}
+            <MorePartners />
+            <Footer />
+          </>
+        }
+      />
+    </Routes>
   );
 }
 export default App;
