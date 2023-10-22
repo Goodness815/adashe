@@ -99,7 +99,6 @@ body {
   color: white;
 }
 
-
 .dark-mode .borderColor {
   border: 2px solid #fff;
 }
@@ -211,9 +210,6 @@ body {
   width: 100%;
 }
 @media screen and (max-width: 770px) {
-  .partners_item img {
-    margin: 0px 15px;
-  }
   .roadmap-container {
     width: 85%;
   }
@@ -224,6 +220,9 @@ body {
   }
   .partners_item span {
     font-size: 9px;
+  }
+  .more_space {
+    margin-left: 10px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -242,7 +241,8 @@ body {
   .partners_item span {
     margin-top: 0 !important;
   }
-  .more_space{
-    margin-left: 5px;
+
+  .partners_item img {
+    margin-left: 10px;
   }
 }
