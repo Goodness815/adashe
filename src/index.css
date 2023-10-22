@@ -221,9 +221,9 @@ body {
   .partners_item span {
     font-size: 9px;
   }
-  .more_space img {
+  /* .more_space img {
     margin-left: 10px;
-  }
+  } */
 }
 @media screen and (max-width: 400px) {
   .roadmap-container {
@@ -244,9 +244,9 @@ body {
   }
 
   .partners_item img {
-    margin-left: 8px;
-    width: 2rem;
-    height: 2rem;
+    margin: 0px  10px;
+    width:30px;
+    height: 30px;
     object-fit: cover;
     object-position: center;
   }
