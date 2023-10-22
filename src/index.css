@@ -127,21 +127,32 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .dark-mode #ROADMAP span {
-  color: white !important;
+  color: rgb(227, 227, 227);
 }
 
 .dark-mode .round_roadmap {
-  background-color: white !important;
+  background-color: rgb(227, 227, 227) !important;
 }
 .dark-mode .rounded-full {
-  border-color: white !important;
+  border-color: rgb(227, 227, 227) !important;
 }
+
 .dark-mode .rounded-full div {
-  background-color: white !important;
+  background-color: rgb(227, 227, 227) !important;
 }
-.dark-mode .rounded-full {
-  border-color: white !important;
+.dark-mode .round_roadmap.blue {
+  background-color: #a680ff !important;
 }
+.dark-mode .rounded-full.blue {
+  border-color: #875aef !important;
+}
+.dark-mode .rounded-full.blue div {
+  background-color: #875aef !important;
+}
+.dark-mode .textwidth.blue {
+  color: #b798ff !important;
+}
+
 .dark-mode .featureComponentContainer {
   background-color: #3a2075;
 }
@@ -213,6 +224,15 @@ body {
   .roadmap-container {
     width: 85%;
   }
+  .fcomponentcase {
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-items: center;
+  }
+  .fcomponentitem {
+    width: 70% !important;
+    justify-content: flex-start !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .partners_item p {
@@ -223,6 +243,15 @@ body {
   }
   .more_space img {
     margin-right: 20px;
+  }
+  .fcomponentcase {
+    padding-right: 20px;
+    padding-left: 20px;
+    row-gap: 15px;
+  }
+  .fcomponentitem {
+    width: 100% !important;
+    /* white-space: nowrap; */
   }
 }
 @media screen and (max-width: 400px) {
@@ -244,8 +273,8 @@ body {
   }
 
   .partners_item img {
-    margin: 0px  10px;
-    width:35px;
+    margin: 0px 10px;
+    width: 35px;
     height: 35px;
     object-fit: cover;
     object-position: center;

@@ -29,15 +29,15 @@ const FeatureComponent = () => {
         </p>
       </div>
       <div className="p-4 rounded-lg mt-">
-        <div className="md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 py-5 px-2 custom-gradient featureComponentContainer Kaydborder">
+        <div className="fcomponentcase md:flex md:flex-row md:justify-center grid grid-cols-2 gap-2 py-5 px-2 custom-gradient featureComponentContainer Kaydborder">
           {/* Data */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
+          <div className="fcomponentitem w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
             <img src={databaseLogo} alt="databaseLogo" className="pr-2" />
             <p className="text-white text-xms md:text-sm">Executable Data</p>
           </div>
 
           {/* DEFI */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
+          <div className="fcomponentitem w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
             <img src={investmentLogo} alt="investmentLogo" className="pr-2" />
             <p className="text-white text-xms md:text-sm">
               Decentralized Finance
@@ -45,13 +45,13 @@ const FeatureComponent = () => {
           </div>
 
           {/* Currency */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
+          <div className="fcomponentitem w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
             <img src={moneyLogo} alt="moneyLogo" className="pr-2" />
             <p className="text-white text-xms md:text-sm pr-5">Currency</p>
           </div>
 
           {/* Trade Finance */}
-          <div className="w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
+          <div className="fcomponentitem w-full md:w-1/2 lg:w-1/4 text-center flex items-center justify-content-center projectAdashe">
             <img src={moneyExchange} alt="moneyExchange" className="pr-2" />
             <p className="text-white text-xms md:text-sm pr-5">Trade Finance</p>
           </div>

@@ -5,16 +5,18 @@ import Verified from "./Verified";
 const Roadmap = () => {
   const roadmapRef = useRef(null);
 
-
   return (
     <>
       <div className="flex" id="ROADMAP">
-      <div className="w-1/4 p-4 flex justify-center items-center writeStyle">
+        <div className="w-1/4 p-4 flex justify-center items-center writeStyle">
           <p className="writeStyleText">RoadMap</p>
         </div>
-        <div className="w-11/12 roadmap-container justify-center" ref={roadmapRef}>
+        <div
+          className="w-11/12 roadmap-container justify-center"
+          ref={roadmapRef}
+        >
           <h2 className="text-xl text-[#203475] mb-4 text-center mt-8">
-           <b>RoadMap</b> 
+            <b>RoadMap</b>
           </h2>
           <div className="flex flex-col items-center space-y-1">
             <div className="flex items-center">
@@ -40,19 +42,19 @@ const Roadmap = () => {
             <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
 
             <div className="flex items-center">
-              <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full">
+              <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full blue">
                 <div className="w-4 h-4 bg-[#3A2075] rounded-full mx-auto mt-1.5">
-                  <span className="textwidth flex ml-8 w-40 text-[#3A2075]">
+                  <span className="textwidth flex ml-8 w-40 text-[#3A2075] blue">
                     Token Presale
                   </span>
                 </div>
               </div>
             </div>
-            <div className="w-0.5 h-6 bg-[#3A2075] round_roadmap"></div>
+            <div className="w-0.5 h-6 bg-[#3A2075] round_roadmap blue"></div>
             <div className="flex items-center">
-              <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full">
+              <div className="w-8 h-8 border-2 border-[#3A2075] rounded-full blue">
                 <div className="w-4 h-4 bg-[#3A2075] rounded-full mx-auto mt-1.5">
-                  <span className="textwidth flex ml-8 w-40 text-[#3A2075]">
+                  <span className="textwidth flex ml-8 w-40 text-[#3A2075] blue">
                     Exchange Listing
                   </span>
                 </div>
@@ -92,7 +94,7 @@ const Roadmap = () => {
               </div>
             </div>
             <div className="w-0.5 h-6 bg-[#3A2075] bg-opacity-50 round_roadmap"></div>
-           
+
             <div className="flex items-center">
               <div className="w-8 h-8 border-2 border-[#3A2075] border-opacity-50 rounded-full">
                 <div className="w-4 h-4 bg-[#3A2075] bg-opacity-50 rounded-full mx-auto mt-1.5">
