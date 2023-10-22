@@ -3,8 +3,8 @@ import Papadopoulos from "../assets/images/teams/Papadopoulos.png";
 import Quivira from "../assets/images/teams/Quivira.png";
 import Uzochukwu from "../assets/images/teams/Uzochukwu.png";
 import socialIcon from "../assets/icons/linkedin.svg";
-import logo3 from "../assets/logo/fas.svg";
-import Gerald from "../assets/images/teams/gerald.png"
+import { TwitterLogo } from "../assets/logo/logo.js";
+import Gerald from "../assets/images/teams/gerald.png";
 import "../assets/styles/Customkayd.css";
 
 const Team = () => {
@@ -35,7 +35,8 @@ const Team = () => {
               </p>
               <div className="mt-4 flex items-center">
                 <a href="https://www.linkedin.com/in/othnielcrtr/">
-                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /></a>
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                </a>
               </div>
             </div>
           </div>
@@ -63,7 +64,8 @@ const Team = () => {
               </p>
               <div className="mt-4 flex items-center">
                 <a href="https://www.linkedin.com/in/ppapadopoulos/">
-                <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /></a>
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                </a>
               </div>
             </div>
           </div>
@@ -89,8 +91,10 @@ const Team = () => {
                 beyond marketing into programming and business management.
               </p>
               <div className="mt-4 flex items-center">
-               <a href="https://www.linkedin.com/in/damilarequivira/">
-                <img src={logo3} alt="Icon 1" className="w-6 h-6 mr-2" /></a> 
+                <a href="https://www.linkedin.com/in/damilarequivira/">
+                  <TwitterLogo />
+                  {/* <img src={logo3} alt="Icon 1" className="w-6 h-6 mr-2" /> */}
+                </a>
               </div>
             </div>
           </div>
@@ -112,14 +116,15 @@ const Team = () => {
               </p>
               <p className="text-gray-400">CFO</p>
               <p className="text-black team-text">
-                Gerald has over 10 years of experience as a senior blockchain developer 
-                and has served as a C-Level Member and advisor to several industry-leading 
-                blockchain projects. He started mining crypto in 2012 and has remained a 
-                vocal crypto advocate.
+                Gerald has over 10 years of experience as a senior blockchain
+                developer and has served as a C-Level Member and advisor to
+                several industry-leading blockchain projects. He started mining
+                crypto in 2012 and has remained a vocal crypto advocate.
               </p>
               <div className="mt-4 flex items-center">
                 <a href="https://www.linkedin.com/in/geraldmonroe1/">
-                 <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" /> </a>
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />{" "}
+                </a>
               </div>
             </div>
           </div>

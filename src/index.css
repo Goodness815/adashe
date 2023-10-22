@@ -73,7 +73,7 @@ body {
 }
 
 .dark-mode .team-container {
-  background-color: #2034750d;
+  background-color: #ffffff0d;
 }
 
 .dark-mode .team-text {
@@ -168,7 +168,9 @@ body {
 }
 .dark-mode .kaydcolor {
   color: white;
-  font-weight: 800;
+}
+.kaydcolor {
+  font-weight: 800 !important;
 }
 
 .roadmap-container {
@@ -186,6 +188,9 @@ body {
 .dark-mode button.rounded-md:first-of-type {
   border-color: #875aef;
   color: #fff;
+}
+.dark-mode .twitter_icon {
+  background-color: white !important;
 }
 .parters_item_right {
   display: flex;
@@ -222,5 +227,11 @@ body {
   }
   .parters_item_right {
     width: 50%;
+  }
+  .addpadding {
+    padding: 10px 3px !important;
+  }
+  .partners_item span {
+    margin-top: 0 !important;
   }
 }
