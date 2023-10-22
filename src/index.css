@@ -221,7 +221,7 @@ body {
   .partners_item span {
     font-size: 9px;
   }
-  .more_space {
+  .more_space img {
     margin-left: 10px;
   }
 }
@@ -234,6 +234,7 @@ body {
   }
   .parters_item_right {
     width: 50%;
+    margin-left: 10px;
   }
   .addpadding {
     padding: 10px 3px !important;
