@@ -67,7 +67,7 @@ const Navbar = () => {
     </span>
 </label>
         </div>
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex items-center space-x-6">
           <a
             href="#ABOUT"
             className={`text-[#203475] hover:text-gray-300 transition duration-300`}

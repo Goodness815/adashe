@@ -89,8 +89,16 @@ body {
 }
 
 .dark-mode .faqContainer {
-  background-color: #dddfe5;
+  background-color: #4a4a4a;
+  color: white;
 }
+.dark-mode .faqOpen p.text-black {
+  color: black !important;
+}
+.dark-mode .faqContainer p.text-black {
+  color: white;
+}
+
 
 .dark-mode .borderColor {
   border: 2px solid #fff;
@@ -170,7 +178,7 @@ body {
   color: white;
 }
 .kaydcolor {
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
 
 .roadmap-container {
