@@ -55,7 +55,7 @@ function MorePartners() {
 
           {/* Partner 3 */}
           <div className="partners_item more_space p-4 flex items-center md:p-2 main addpadding">
-            <a href="http://www.palremit.com">
+            <a href="https://palremit.com/">
               {" "}
               <img
                 src={palremit} /* Replace with the URL of your image */
@@ -63,7 +63,7 @@ function MorePartners() {
                 className="w-10 h-10 md:w-16 md:h-16 mr-2"
               />
             </a>
-            <a className="parters_item_right" href="http://www.palremit.com">
+            <a className="parters_item_right" href="https://palremit.com/">
               {" "}
               <p className="text-white mb-1 text-lg">Palremit</p>
               <span className="text-[#FFFFFF] md:text-ssm text-xs">
