@@ -37,6 +37,7 @@ const TwoColumnComponent = () => {
               &times;
             </span>
             <div
+              className="modal_content"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -44,10 +45,8 @@ const TwoColumnComponent = () => {
                 padding: "20px 0px",
               }}
             >
-              <a
-                href="https://raze.finance/"
-                target="__blank"
-              >
+              <span>(For US and int citizens)</span>
+              <a href="https://raze.finance/" target="__blank">
                 <button
                   onClick={openModal}
                   className="bg-[#203475] text-white px-4 py-2 rounded-md button-firstOne"
@@ -56,10 +55,9 @@ const TwoColumnComponent = () => {
                 </button>
               </a>
 
-              <a
-                href="https://www.pinksale.finance/"
-                target="__blank"
-              >
+              <span>(For int citizens only)</span>
+
+              <a href="https://www.pinksale.finance/" target="__blank">
                 <button
                   onClick={openModal}
                   className="bg-[#203475] text-white px-4 py-2 rounded-md button-firstOne"

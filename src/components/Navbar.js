@@ -84,6 +84,7 @@ const Navbar = () => {
               &times;
             </span>
             <div
+              className="modal_content"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -91,6 +92,7 @@ const Navbar = () => {
                 padding: "20px 0px",
               }}
             >
+              <span>(For US and int citizens)</span>
               <a href="https://raze.finance/" target="__blank">
                 <button
                   onClick={openModal}
@@ -99,6 +101,8 @@ const Navbar = () => {
                   Raze Finance
                 </button>
               </a>
+
+              <span>(For int citizens only)</span>
 
               <a href="https://www.pinksale.finance/" target="__blank">
                 <button
@@ -272,7 +276,10 @@ const Navbar = () => {
             >
               FAQ
             </a>
-            <button onClick={openModal} className="border border-[#203475] text-[#203475] px-4 py-1 rounded-md">
+            <button
+              onClick={openModal}
+              className="border border-[#203475] text-[#203475] px-4 py-1 rounded-md"
+            >
               Buy Token
             </button>
           </div>

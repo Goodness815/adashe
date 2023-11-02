@@ -52,19 +52,21 @@ const Team = () => {
                 className="w-25 h-25 mt-6 rounded-full kaydimg"
               />
             </div>
+
             <div className="flex-grow">
               <p className="text-lg text-[#3A2075] font-semibold">
-                Dr. Periklis Papadopoulos
+                Gerald Monroe
               </p>
-              <p className="text-gray-400">CTO</p>
+              <p className="text-gray-400">CFO</p>
               <p className="text-black team-text">
-                Dr. Periklis Papadopoulos is a seasoned engineer and has worked
-                on projects spanning decades in Aerospace and other cutting-edge
-                systems.
+                Gerald has over 10 years of experience as a senior blockchain
+                developer and has served as a C-Level Member and advisor to
+                several industry-leading blockchain projects. He started mining
+                crypto in 2012 and has remained a vocal crypto advocate.
               </p>
               <div className="mt-4 flex items-center">
-                <a href="https://www.linkedin.com/in/ppapadopoulos/">
-                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
+                <a href="https://www.linkedin.com/in/geraldmonroe1/">
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />{" "}
                 </a>
               </div>
             </div>
@@ -110,20 +112,21 @@ const Team = () => {
                 className="w-25 h-25 mt-6 rounded-full kaydimg"
               />
             </div>
+
             <div className="flex-grow">
               <p className="text-lg text-[#3A2075] font-semibold">
-                Gerald Monroe
+                Carl Tautenhahn
               </p>
-              <p className="text-gray-400">CFO</p>
+              <p className="text-gray-400">CTO</p>
               <p className="text-black team-text">
-                Gerald has over 10 years of experience as a senior blockchain
-                developer and has served as a C-Level Member and advisor to
-                several industry-leading blockchain projects. He started mining
-                crypto in 2012 and has remained a vocal crypto advocate.
+                Carl has been active in blockchain technology and crypto since
+                2012. With a background in Graph Theory and advanced
+                optimization algorithms, Carl has co-funded and serves as an
+                advisor to several pioneering Web3 projects.
               </p>
               <div className="mt-4 flex items-center">
-                <a href="https://www.linkedin.com/in/geraldmonroe1/">
-                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />{" "}
+                <a href="https://www.linkedin.com/in/ppapadopoulos/">
+                  <img src={socialIcon} alt="Icon 1" className="w-6 h-6 mr-2" />
                 </a>
               </div>
             </div>

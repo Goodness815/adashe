@@ -251,6 +251,26 @@ body {
 .close {
   cursor: pointer;
 }
+
+.modal_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+.modal_content span {
+  margin-bottom: 20px;
+  color: #682075;
+}
+
+.modal_content span:last-of-type {
+  margin-top: 20px;
+}
+.modal_content a:last-of-type {
+  margin-bottom: 20px;
+}
+
 /* Add Animation */
 @keyframes animatetop {
   from {
